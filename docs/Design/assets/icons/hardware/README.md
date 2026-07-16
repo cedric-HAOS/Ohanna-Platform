@@ -1,0 +1,9 @@
+Raspberry Pi=cpu.svg
+Home Assistant=house.svg
+NAS/SSD=hard-drive.svg
+Camera=camera.svg
+Sensor=radar.svg
+UPS=battery-charging.svg
+Battery=battery.svg
+Power=plug-zap.svg
+Disk=disc-3.svg

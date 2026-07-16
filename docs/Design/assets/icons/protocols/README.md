@@ -1,0 +1,13 @@
+DNS=Binary
+DHCP=Network
+MQTT=RadioTower
+HTTP=Globe2
+HTTPS=Lock
+WebSocket=Cable
+SNMP=ScanSearch
+SSH=Terminal
+FTP=FolderSync
+SFTP=FolderLock
+SMTP=Mail
+IMAP=Inbox
+POP3=MailOpen

@@ -1,88 +1,186 @@
 # Ohanna Platform
 
-Ohanna Platform est une plateforme modulaire de supervision d’infrastructure.
+> **A modular infrastructure supervision platform built around observation, health monitoring and real-time visualization.**
 
-Elle collecte des observations techniques, construit une représentation de l’état des services et présente ces informations dans une interface Web temps réel.
+---
 
-La plateforme repose sur deux composants indépendants :
+## Overview
 
-* **Ohanna-Agent**, responsable de la collecte et de l’export des observations ;
-* **Ohanna-Vision**, responsable de leur ingestion, de leur traitement et de leur visualisation.
+Ohanna Platform is an open, modular platform designed to supervise infrastructure through standardized observations.
 
-## Architecture
+Rather than coupling data collection and visualization into a single application, Ohanna separates responsibilities into independent components that communicate through well-defined interfaces.
 
-```text
-Infrastructure
-      │
-      ▼
-Ohanna-Agent
-      │
-Observations REST
-      │
-      ▼
-Ohanna-Vision
-      │
-      ▼
-Dashboard Web
-```
+This architecture provides:
 
-## Composants
+* scalable supervision;
+* modular plugins;
+* declarative infrastructure;
+* real-time dashboards;
+* timeline-based history;
+* clear separation between collection and visualization.
 
-### Ohanna-Agent
+---
 
-Ohanna-Agent exécute les plugins de supervision, planifie les vérifications et produit des observations normalisées.
-
-Dépôt :
+# Platform Architecture
 
 ```text
-https://github.com/cedric-HAOS/Ohanna-Agent
+                    Infrastructure
+                           │
+                           ▼
+                  Ohanna-Agent
+                           │
+                 REST Observations
+                           │
+                           ▼
+                  Ohanna-Vision
+                           │
+                  Web Dashboard
+                           │
+                           ▼
+                     Administrator
 ```
 
-### Ohanna-Vision
+---
 
-Ohanna-Vision reçoit les observations, construit les timelines métier, calcule l’état de santé de l’infrastructure et alimente le tableau de bord temps réel.
+# Components
 
-Dépôt :
+## Ohanna-Agent
+
+**Infrastructure observation engine**
+
+Responsibilities:
+
+* plugin execution;
+* scheduler;
+* capability monitoring;
+* observation generation;
+* observation export.
+
+Repository
 
 ```text
-https://github.com/cedric-HAOS/Ohanna-Vision
+https://github.com/<your-account>/Ohanna-Agent
 ```
 
-## Documentation
+---
 
-La documentation principale de la plateforme est disponible dans le répertoire [`docs`](docs/).
+## Ohanna-Vision
 
-Documents de référence :
+**Real-time supervision dashboard**
 
-* [Architecture](docs/Architecture.md)
-* [Installation de la plateforme](docs/Installer-Ohanna-Platform.md)
-* [Exploitation](docs/Operations.md)
-* [Dépannage](docs/Troubleshooting.md)
-* [Feuille de route](ROADMAP.md)
-* [Historique des versions](CHANGELOG.md)
+Responsibilities:
 
-## Installation
+* observation ingestion;
+* timeline engine;
+* health computation;
+* topology visualization;
+* dashboard;
+* WebSocket updates.
 
-La procédure complète de déploiement d’Ohanna-Agent et d’Ohanna-Vision est décrite dans :
+Repository
+
+```text
+https://github.com/<your-account>/Ohanna-Vision
+```
+
+---
+
+## Ohanna-Platform
+
+This repository.
+
+Responsibilities:
+
+* platform documentation;
+* deployment guides;
+* operational procedures;
+* compatibility matrix;
+* installation examples;
+* future deployment assets.
+
+---
+
+## Ohanna-House
+
+Reference deployment of the platform.
+
+This repository documents a real-world installation of Ohanna within a home infrastructure and provides practical deployment examples.
+
+---
+
+# Documentation
+
+The complete documentation is available in the `docs` directory.
+
+| Document                  | Description                        |
+| ------------------------- | ---------------------------------- |
+| Architecture              | Global platform architecture       |
+| Installer-Ohanna-Platform | Complete installation guide        |
+| Operations                | Production operation guide         |
+| Troubleshooting           | Diagnostics and problem resolution |
+
+---
+
+# Getting Started
+
+1. Install **Ohanna-Agent**.
+2. Install **Ohanna-Vision**.
+3. Configure the infrastructure.
+4. Connect Agent to Vision.
+5. Open the dashboard.
+
+The complete procedure is described in:
 
 ```text
 docs/Installer-Ohanna-Platform.md
 ```
 
-## Statut
+---
 
-La première génération de la plateforme comprend :
+# Repository Structure
 
-* le runtime et le système de plugins d’Ohanna-Agent ;
-* l’infrastructure déclarative ;
-* la production et l’export d’observations ;
-* l’API d’ingestion d’Ohanna-Vision ;
-* le moteur de timeline ;
-* le moteur de santé ;
-* la topologie interactive ;
-* le tableau de bord temps réel ;
-* la diffusion WebSocket.
+```text
+Ohanna-Platform/
 
-## Licence
+docs/
+examples/
+scripts/
 
-Le projet est distribué selon les conditions décrites dans le fichier [LICENSE](LICENSE).
+README.md
+ROADMAP.md
+CHANGELOG.md
+```
+
+---
+
+# Version Compatibility
+
+Platform releases define validated combinations of Ohanna-Agent and Ohanna-Vision.
+
+| Platform | Agent  | Vision |
+| -------- | ------ | ------ |
+| 1.0      | 0.14.x | 0.1.x  |
+
+---
+
+# Roadmap
+
+The platform roadmap is available in:
+
+```text
+ROADMAP.md
+```
+
+---
+
+# Contributing
+
+At this stage, the platform is primarily developed as the reference implementation of the Ohanna ecosystem.
+
+Contribution guidelines will be published in a future release.
+
+---
+
+# License
+
+See the `LICENSE` file for licensing information.
