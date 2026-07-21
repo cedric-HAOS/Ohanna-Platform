@@ -2,7 +2,7 @@ schema_version: 1
 
 platform:
   name: Ohanna
-  version: 1.0.0
+  version: "1.0.0"
 
 runtime:
   python:
@@ -14,18 +14,36 @@ components:
     repository: cedric-HAOS/Ohanna-Agent
     version: "1.0.0"
     release_tag: v1.0.0
+
     package:
       type: wheel
       filename: ohanna_agent-1.0.0-py3-none-any.whl
+
+    configuration:
+      directory: /etc/ohanna-agent
+      files:
+        - source: shikamaru.yaml
+          destination: shikamaru.yaml
+        - source: infrastructure.yaml
+          destination: infrastructure.yaml
+        - source: dns.yaml
+          destination: plugins/dns.yaml
 
   vision:
     name: Ohanna-Vision
     repository: cedric-HAOS/Ohanna-Vision
     version: "1.0.0"
     release_tag: v1.0.0
+
     package:
       type: wheel
       filename: ohanna_vision-1.0.0-py3-none-any.whl
+
+    configuration:
+      directory: /etc/ohanna-vision
+      files:
+        - source: vision.yaml
+          destination: vision.yaml
 
 compatibility:
   operating_system:
