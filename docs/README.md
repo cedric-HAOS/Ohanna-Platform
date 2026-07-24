@@ -1,6 +1,6 @@
 # Ohana Platform
 
-![Ohana](assets/logo/logo.svg)
+![Ohana](Design/assets/logos/logo.svg)
 
 **Ohana Platform** est une plateforme open source d'observabilité et d'administration d'infrastructures, conçue autour d'un modèle déclaratif et pilotée par les capacités (*Capabilities*).
 
@@ -19,6 +19,14 @@ Agent d'observation chargé d'exécuter les capacités, de collecter les observa
 ### Ohana-Vision
 
 Interface web de supervision permettant de visualiser l'état de santé de l'infrastructure, les observations, la topologie et les événements en temps réel.
+
+### Ohana-Installer
+
+Installateur Linux/systemd chargé de déployer, mettre à jour et désinstaller les releases officielles décrites par le manifeste de plateforme.
+
+### Ohana-House
+
+Déploiement de référence documentant l'exploitation réelle de l'écosystème Ohana dans l'infrastructure domestique.
 
 ---
 

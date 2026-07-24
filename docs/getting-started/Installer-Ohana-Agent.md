@@ -31,7 +31,7 @@ pip --version
 # Étape 1 — Cloner le dépôt
 
 ```bash
-git clone https://github.com/<organisation>/Ohana-Agent.git
+git clone https://github.com/cedric-HAOS/Ohana-Agent.git
 
 cd Ohana-Agent
 ```
@@ -135,15 +135,7 @@ Lancer l'agent avec la configuration fournie :
 
 ```bash
 ohana-agent \
-    --config config/application.yaml \
-    --infrastructure config/infrastructure.yaml
-```
-
-Selon les plugins utilisés, des paramètres supplémentaires peuvent être nécessaires, par exemple :
-
-```bash
-ohana-agent \
-    --config config/application.yaml \
+    --config config/shikamaru.yaml \
     --infrastructure config/infrastructure.yaml \
     --dns-config config/plugins/dns.yaml
 ```

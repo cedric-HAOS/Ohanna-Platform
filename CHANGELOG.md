@@ -6,6 +6,14 @@ Le format s’inspire de Keep a Changelog et le projet suit une stratégie de ve
 
 ## [Unreleased]
 
+### Changed
+
+* Alignement de la plateforme 1.0.1 sur Ohana-Agent 1.1.1 et
+  Ohana-Vision 1.1.1.
+* Passage du runtime commun minimal à Python 3.13.
+* Séparation des comptes systemd `ohana-agent` et `ohana-vision`.
+* Correction des guides, des liens et de la matrice de compatibilité.
+
 ### Added
 
 * Initialisation du dépôt Ohana-Platform.

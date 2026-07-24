@@ -16,8 +16,8 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 * [x] Ajout du README.
 * [x] Ajout du CHANGELOG.
 * [x] Ajout de la roadmap.
-* [ ] Ajout de la licence.
-* [ ] Premier audit du dépôt.
+* [x] Ajout de la licence.
+* [x] Premier audit transversal de l'écosystème.
 
 ---
 
@@ -27,7 +27,7 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 * [ ] Finaliser `docs/Installer-Ohana-Platform.md`.
 * [ ] Rédiger `docs/Operations.md`.
 * [ ] Rédiger `docs/Troubleshooting.md`.
-* [ ] Ajouter une matrice de compatibilité Agent/Vision.
+* [x] Ajouter une matrice de compatibilité Agent/Vision.
 * [ ] Documenter les ports et flux réseau.
 * [ ] Documenter les stratégies de sauvegarde et de restauration.
 
@@ -35,13 +35,13 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 
 ## Phase 2 — Déploiement reproductible
 
-* [ ] Ajouter des scripts d’installation Linux.
+* [x] Ajouter l'installation Linux via Ohana-Installer.
 * [ ] Ajouter des scripts d’installation Windows.
-* [ ] Ajouter les unités `systemd`.
+* [x] Générer les unités `systemd` via Ohana-Installer.
 * [ ] Ajouter les modèles de services Windows.
-* [ ] Ajouter les fichiers de configuration d’exemple.
-* [ ] Ajouter les vérifications post-installation.
-* [ ] Ajouter une procédure de désinstallation.
+* [x] Distribuer les fichiers de configuration d’exemple dans les releases.
+* [x] Ajouter les vérifications post-installation dans Ohana-Installer.
+* [x] Ajouter la désinstallation dans Ohana-Installer.
 
 ---
 
@@ -71,11 +71,11 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 ## Phase 5 — Distribution de la plateforme
 
 * [ ] Publier des releases cohérentes de la plateforme.
-* [ ] Associer les versions compatibles d’Ohana-Agent et d’Ohana-Vision.
-* [ ] Fournir des sommes de contrôle.
+* [x] Associer les versions compatibles d’Ohana-Agent et d’Ohana-Vision.
+* [x] Fournir des sommes de contrôle pour les releases des composants.
 * [ ] Fournir des archives de déploiement.
-* [ ] Ajouter un manifeste de plateforme.
-* [ ] Étudier un installateur unifié.
+* [x] Ajouter un manifeste de plateforme.
+* [x] Fournir un installateur unifié avec Ohana-Installer.
 
 ---
 

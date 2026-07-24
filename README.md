@@ -1,186 +1,84 @@
 # Ohana Platform
 
-> **A modular infrastructure supervision platform built around observation, health monitoring and real-time visualization.**
+> A modular infrastructure supervision platform built around observation,
+> health monitoring and real-time visualization.
 
----
+Ohana separates collection, visualization and deployment into independent
+components connected by explicit contracts.
 
-## Overview
+## Ecosystem
 
-Ohana Platform is an open, modular platform designed to supervise infrastructure through standardized observations.
-
-Rather than coupling data collection and visualization into a single application, Ohana separates responsibilities into independent components that communicate through well-defined interfaces.
-
-This architecture provides:
-
-* scalable supervision;
-* modular plugins;
-* declarative infrastructure;
-* real-time dashboards;
-* timeline-based history;
-* clear separation between collection and visualization.
-
----
-
-# Platform Architecture
+| Repository | Responsibility |
+| --- | --- |
+| [Ohana-Agent](https://github.com/cedric-HAOS/Ohana-Agent) | Collects observations and owns the declarative infrastructure topology. |
+| [Ohana-Vision](https://github.com/cedric-HAOS/Ohana-Vision) | Ingests observations and displays health, history and topology. |
+| [Ohana-Installer](https://github.com/cedric-HAOS/Ohana-Installer) | Installs, updates and removes the released platform on Linux/systemd. |
+| [Ohana-House](https://github.com/cedric-HAOS/Ohana-House) | Documents the reference home deployment. |
+| **Ohana-Platform** | Defines the shared architecture, documentation, design system and release manifest. |
 
 ```text
-                    Infrastructure
-                           │
-                           ▼
-                  Ohana-Agent
-                           │
-                 REST Observations
-                           │
-                           ▼
-                  Ohana-Vision
-                           │
-                  Web Dashboard
-                           │
-                           ▼
-                     Administrator
+Infrastructure
+      |
+      v
+Ohana-Agent -- REST --> Ohana-Vision --> Web dashboard
+      ^
+      |
+Ohana-Installer reads the Ohana-Platform release manifest
 ```
 
----
+## Shared contracts
 
-# Components
+- Agent publishes observations to `POST /api/observations`.
+- Agent synchronizes topology through `PUT /api/infrastructure`.
+- Vision listens on `127.0.0.1:8000` by default.
+- `release-manifest.yaml` is the platform release source of truth.
+- `Ohana-Installer/config/release-manifest.yaml` is the bundled copy consumed
+  by the installer and must remain identical to the platform manifest.
 
-## Ohana-Agent
+## Documentation
 
-**Infrastructure observation engine**
+| Document | Description |
+| --- | --- |
+| [Architecture](docs/Architecture/Architecture.md) | Global platform architecture |
+| [Development installation](docs/getting-started/Installer-Ohana-Platform.md) | Local Agent + Vision setup |
+| [Operations](docs/Architecture/Déploiement.md) | Deployment architecture |
+| [Design system](docs/Design/Brand.md) | Shared visual identity |
 
-Responsibilities:
+## Getting started
 
-* plugin execution;
-* scheduler;
-* capability monitoring;
-* observation generation;
-* observation export.
+For a development environment, follow
+[the complete installation guide](docs/getting-started/Installer-Ohana-Platform.md).
+Production installation is handled by Ohana-Installer from official GitHub
+releases.
 
-Repository
-
-```text
-https://github.com/<your-account>/Ohana-Agent
-```
-
----
-
-## Ohana-Vision
-
-**Real-time supervision dashboard**
-
-Responsibilities:
-
-* observation ingestion;
-* timeline engine;
-* health computation;
-* topology visualization;
-* dashboard;
-* WebSocket updates.
-
-Repository
-
-```text
-https://github.com/<your-account>/Ohana-Vision
-```
-
----
-
-## Ohana-Platform
-
-This repository.
-
-Responsibilities:
-
-* platform documentation;
-* deployment guides;
-* operational procedures;
-* compatibility matrix;
-* installation examples;
-* future deployment assets.
-
----
-
-## Ohana-House
-
-Reference deployment of the platform.
-
-This repository documents a real-world installation of Ohana within a home infrastructure and provides practical deployment examples.
-
----
-
-# Documentation
-
-The complete documentation is available in the `docs` directory.
-
-| Document                  | Description                        |
-| ------------------------- | ---------------------------------- |
-| Architecture              | Global platform architecture       |
-| Installer-Ohana-Platform | Complete installation guide        |
-| Operations                | Production operation guide         |
-| Troubleshooting           | Diagnostics and problem resolution |
-
----
-
-# Getting Started
-
-1. Install **Ohana-Agent**.
-2. Install **Ohana-Vision**.
-3. Configure the infrastructure.
-4. Connect Agent to Vision.
-5. Open the dashboard.
-
-The complete procedure is described in:
-
-```text
-docs/Installer-Ohana-Platform.md
-```
-
----
-
-# Repository Structure
+## Repository structure
 
 ```text
 Ohana-Platform/
-
-docs/
-examples/
-scripts/
-
-README.md
-ROADMAP.md
-CHANGELOG.md
+├── diagrams/
+├── docs/
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── ROADMAP.md
+└── release-manifest.yaml
 ```
 
----
+## Version compatibility
 
-# Version Compatibility
+| Platform | Agent | Vision | Python | Target |
+| --- | --- | --- | --- | --- |
+| 1.0.1 | 1.1.1 | 1.1.1 | 3.13+ | Linux/systemd |
 
-Platform releases define validated combinations of Ohana-Agent and Ohana-Vision.
+The exact installable versions and artifact names are defined in
+`release-manifest.yaml`.
 
-| Platform | Agent  | Vision |
-| -------- | ------ | ------ |
-| 1.0      | 0.14.x | 0.1.x  |
+## Contributing
 
----
+The platform is currently maintained as the reference implementation of the
+Ohana ecosystem. Component-specific changes belong in the corresponding
+repository; shared contracts and release coordination belong here.
 
-# Roadmap
+## License
 
-The platform roadmap is available in:
-
-```text
-ROADMAP.md
-```
-
----
-
-# Contributing
-
-At this stage, the platform is primarily developed as the reference implementation of the Ohana ecosystem.
-
-Contribution guidelines will be published in a future release.
-
----
-
-# License
-
-See the `LICENSE` file for licensing information.
+Distributed under the MIT license. See `LICENSE`.

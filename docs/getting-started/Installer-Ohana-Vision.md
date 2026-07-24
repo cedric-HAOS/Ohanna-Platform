@@ -31,7 +31,7 @@ pip --version
 # Étape 1 — Cloner le dépôt
 
 ```bash
-git clone https://github.com/<organisation>/Ohana-Vision.git
+git clone https://github.com/cedric-HAOS/Ohana-Vision.git
 
 cd Ohana-Vision
 ```

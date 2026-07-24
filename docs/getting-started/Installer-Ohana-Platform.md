@@ -44,9 +44,9 @@ cd Ohana
 Cloner les dépôts :
 
 ```bash
-git clone https://github.com/<organisation>/Ohana-Agent.git
+git clone https://github.com/cedric-HAOS/Ohana-Agent.git
 
-git clone https://github.com/<organisation>/Ohana-Vision.git
+git clone https://github.com/cedric-HAOS/Ohana-Vision.git
 ```
 
 Vérifier :
@@ -170,8 +170,9 @@ Depuis le répertoire **Ohana-Agent** :
 
 ```bash
 ohana-agent \
-    --config config/application.yaml \
-    --infrastructure config/infrastructure.yaml
+    --config config/shikamaru.yaml \
+    --infrastructure config/infrastructure.yaml \
+    --dns-config config/plugins/dns.yaml
 ```
 
 Le journal doit indiquer que l'agent est démarré.
