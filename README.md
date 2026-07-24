@@ -32,8 +32,10 @@ Ohana-Installer reads the Ohana-Platform release manifest
 - Agent synchronizes topology through `PUT /api/infrastructure`.
 - Vision listens on `127.0.0.1:8000` by default.
 - `release-manifest.yaml` is the platform release source of truth.
-- `Ohana-Installer/config/release-manifest.yaml` is the bundled copy consumed
-  by the installer and must remain identical to the platform manifest.
+- Each Platform release publishes `release-manifest.yaml` as a GitHub release asset.
+- Component releases publish every wheel and configuration file declared by the manifest.
+- `Ohana-Installer/config/release-manifest.yaml` is the synchronized validation
+  copy used by Installer tests and must remain identical to the platform manifest.
 
 ## Documentation
 

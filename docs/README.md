@@ -18,7 +18,7 @@ Agent d'observation chargé d'exécuter les capacités, de collecter les observa
 
 ### Ohana-Vision
 
-Interface web de supervision permettant de visualiser l'état de santé de l'infrastructure, les observations, la topologie et les événements en temps réel.
+Interface web de supervision et d'administration permettant de visualiser l'état de santé, les observations, la topologie et les événements en temps réel.
 
 ### Ohana-Installer
 
@@ -60,9 +60,9 @@ La documentation officielle est organisée autour des thèmes suivants :
 
 Ohana Platform est actuellement en développement actif.
 
-Les évolutions prévues sont décrites dans le fichier **ROADMAP.md**.
+Les évolutions prévues sont décrites dans la [roadmap](../ROADMAP.md).
 
-L'historique des versions est disponible dans **CHANGELOG.md**.
+L'historique des versions est disponible dans le [changelog](../CHANGELOG.md).
 
 ---
 

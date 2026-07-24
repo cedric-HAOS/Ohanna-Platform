@@ -23,9 +23,9 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 
 ## Phase 1 — Documentation de la plateforme
 
-* [ ] Finaliser `docs/Architecture.md`.
-* [ ] Finaliser `docs/Installer-Ohana-Platform.md`.
-* [ ] Rédiger `docs/Operations.md`.
+* [x] Finaliser la documentation d'architecture.
+* [x] Finaliser `docs/Installer-Ohana-Platform.md`.
+* [x] Rédiger `docs/Operations.md`.
 * [ ] Rédiger `docs/Troubleshooting.md`.
 * [x] Ajouter une matrice de compatibilité Agent/Vision.
 * [ ] Documenter les ports et flux réseau.
@@ -70,7 +70,7 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 
 ## Phase 5 — Distribution de la plateforme
 
-* [ ] Publier des releases cohérentes de la plateforme.
+* [x] Publier des releases cohérentes de la plateforme.
 * [x] Associer les versions compatibles d’Ohana-Agent et d’Ohana-Vision.
 * [x] Fournir des sommes de contrôle pour les releases des composants.
 * [ ] Fournir des archives de déploiement.
@@ -86,7 +86,6 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 * stockage persistant ;
 * notifications ;
 * gestion des incidents ;
-* administration de l’infrastructure ;
 * haute disponibilité ;
 * déploiements distribués ;
 * catalogue de plugins ;
