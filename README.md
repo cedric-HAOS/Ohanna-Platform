@@ -68,6 +68,7 @@ Ohana-Platform/
 
 | Platform | Agent | Vision | Python | Target |
 | --- | --- | --- | --- | --- |
+| 1.0.2 | 1.1.1 | 1.1.2 | 3.13+ | Linux/systemd |
 | 1.0.1 | 1.1.1 | 1.1.1 | 3.13+ | Linux/systemd |
 
 The exact installable versions and artifact names are defined in

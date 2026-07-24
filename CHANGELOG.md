@@ -6,6 +6,16 @@ Le format s’inspire de Keep a Changelog et le projet suit une stratégie de ve
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-07-24
+
+### Changed
+
+* Alignement de la plateforme sur Ohana-Vision 1.1.2.
+* Distribution du correctif des ressources graphiques et de l'accès à
+  l'interface web depuis l'URL racine.
+
+## [1.0.1] - 2026-07-24
+
 ### Changed
 
 * Alignement de la plateforme 1.0.1 sur Ohana-Agent 1.1.1 et
