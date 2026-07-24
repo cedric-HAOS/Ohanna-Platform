@@ -8,6 +8,13 @@ Ce projet suit les principes de **Keep a Changelog** et du **Semantic Versioning
 
 ## [Unreleased]
 
+### 1.0.3
+
+* Documentation de l'administration graphique DHCP et Architecture.
+* Ajout des modes Déplacer et Relier et de l'édition des services par
+  équipement.
+* Matrice compatible : Agent 1.2.0, Vision 1.2.0, Installer 1.0.1.
+
 ### Added
 
 * Documentation générale de la plateforme.

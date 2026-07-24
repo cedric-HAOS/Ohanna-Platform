@@ -6,6 +6,21 @@ Le format s’inspire de Keep a Changelog et le projet suit une stratégie de ve
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-07-24
+
+### Added
+
+* Administration graphique du DHCP et de l'architecture via le contrat local
+  authentifié entre Vision et Agent.
+* Cartographie sur grille, glisser-déposer des équipements, association des
+  services et édition complète des liaisons.
+
+### Changed
+
+* Alignement de la plateforme sur Ohana-Agent 1.2.0 et Ohana-Vision 1.2.0.
+* Préparation systemd de l'administration et du rechargement sécurisé de
+  dnsmasq par Ohana-Installer 1.0.1.
+
 ## [1.0.2] - 2026-07-24
 
 ### Changed
