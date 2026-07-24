@@ -7,7 +7,7 @@
 
 # Contexte
 
-La plateforme Ohanna est constituée de plusieurs produits développés indépendamment.
+La plateforme Ohana est constituée de plusieurs produits développés indépendamment.
 
 Afin de préserver la cohérence de l'écosystème, il est nécessaire de définir les responsabilités de chaque produit ainsi que les règles qui gouvernent leurs interactions.
 
@@ -23,15 +23,15 @@ Les produits communiquent exclusivement au travers d'interfaces publiques.
 
 Aucun produit ne doit implémenter une responsabilité appartenant à un autre.
 
-Chaque dépôt reste autonome tout en s'intégrant dans l'architecture globale d'Ohanna.
+Chaque dépôt reste autonome tout en s'intégrant dans l'architecture globale d'Ohana.
 
 ---
 
 # Les produits
 
-## Ohanna Platform
+## Ohana Platform
 
-Ohanna Platform constitue le référentiel officiel de la plateforme.
+Ohana Platform constitue le référentiel officiel de la plateforme.
 
 Il rassemble les éléments communs à l'ensemble de l'écosystème.
 
@@ -45,13 +45,13 @@ Ses responsabilités sont :
 * fournir les ressources graphiques communes ;
 * documenter les produits de la plateforme.
 
-Ohanna Platform ne contient aucun composant d'exécution.
+Ohana Platform ne contient aucun composant d'exécution.
 
 ---
 
-## Ohanna Agent
+## Ohana Agent
 
-Ohanna Agent est le moteur d'observation.
+Ohana Agent est le moteur d'observation.
 
 Ses responsabilités sont :
 
@@ -62,13 +62,13 @@ Ses responsabilités sont :
 * exposer les données de supervision ;
 * fournir les interfaces de communication.
 
-Ohanna Agent ne possède aucune responsabilité de présentation.
+Ohana Agent ne possède aucune responsabilité de présentation.
 
 ---
 
-## Ohanna Vision
+## Ohana Vision
 
-Ohanna Vision est l'interface de visualisation.
+Ohana Vision est l'interface de visualisation.
 
 Ses responsabilités sont :
 
@@ -78,13 +78,13 @@ Ses responsabilités sont :
 * afficher les indicateurs de santé ;
 * proposer les interfaces d'administration.
 
-Ohanna Vision ne produit aucune observation.
+Ohana Vision ne produit aucune observation.
 
 ---
 
-## Ohanna House
+## Ohana House
 
-Ohanna House constitue le déploiement de référence.
+Ohana House constitue le déploiement de référence.
 
 Ses responsabilités sont :
 
@@ -93,7 +93,7 @@ Ses responsabilités sont :
 * servir d'environnement de démonstration ;
 * vérifier les choix architecturaux dans des conditions d'exploitation.
 
-Ohanna House n'est pas un produit logiciel mais une implémentation de référence de la plateforme.
+Ohana House n'est pas un produit logiciel mais une implémentation de référence de la plateforme.
 
 ---
 
@@ -101,13 +101,13 @@ Ohanna House n'est pas un produit logiciel mais une implémentation de référen
 
 Les produits collaborent au travers de contrats explicites.
 
-Ohanna Platform ne dépend d'aucun produit.
+Ohana Platform ne dépend d'aucun produit.
 
-Ohanna Agent fonctionne indépendamment de toute interface graphique.
+Ohana Agent fonctionne indépendamment de toute interface graphique.
 
-Ohanna Vision dépend des interfaces exposées par Ohanna Agent.
+Ohana Vision dépend des interfaces exposées par Ohana Agent.
 
-Ohanna House assemble les différents produits dans une infrastructure réelle.
+Ohana House assemble les différents produits dans une infrastructure réelle.
 
 Les dépendances sont orientées dans un seul sens.
 
@@ -126,7 +126,7 @@ Cette documentation couvre :
 * sa feuille de route ;
 * son historique des versions.
 
-Ohanna Platform documente uniquement les éléments communs à plusieurs produits.
+Ohana Platform documente uniquement les éléments communs à plusieurs produits.
 
 ---
 

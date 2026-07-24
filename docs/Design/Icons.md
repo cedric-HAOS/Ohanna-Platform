@@ -1,6 +1,6 @@
 # Icons.md
 
-# Ohanna — Iconography System
+# Ohana — Iconography System
 
 Version : 1.0
 Statut : Référence officielle
@@ -21,7 +21,7 @@ Chaque icône possède une signification précise et constante dans l'ensemble d
 
 # 2. Bibliothèque officielle
 
-L'unique bibliothèque d'icônes utilisée par Ohanna est :
+L'unique bibliothèque d'icônes utilisée par Ohana est :
 
 ```text
 Lucide
@@ -256,7 +256,7 @@ Les illustrations complexes doivent être réalisées sous forme de SVG dédiés
 
 ---
 
-# 19. Icônes spécifiques à Ohanna
+# 19. Icônes spécifiques à Ohana
 
 Certaines représentations sont propres à la plateforme :
 

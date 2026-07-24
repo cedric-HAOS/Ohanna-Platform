@@ -1,6 +1,6 @@
 # Layout.md
 
-# Ohanna — Layout System
+# Ohana — Layout System
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 # 1. Philosophie
 
-Le système de mise en page d'Ohanna organise l'information de manière claire, stable et prévisible.
+Le système de mise en page d'Ohana organise l'information de manière claire, stable et prévisible.
 
 Chaque écran doit permettre à l'utilisateur de :
 
@@ -24,7 +24,7 @@ Le layout privilégie la lisibilité à la densité d'information.
 
 # 2. Structure générale
 
-Toutes les applications Ohanna utilisent la structure suivante :
+Toutes les applications Ohana utilisent la structure suivante :
 
 ```text
 +-----------------------------------------------------------+
@@ -440,7 +440,7 @@ Toutes les applications de la plateforme utilisent :
 * les mêmes largeurs ;
 * les mêmes règles de composition.
 
-Le passage d'un produit Ohanna à un autre doit être naturel.
+Le passage d'un produit Ohana à un autre doit être naturel.
 
 ---
 

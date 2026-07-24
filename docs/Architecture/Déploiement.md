@@ -1,8 +1,8 @@
-# Architecture de déploiement de la plateforme Ohanna
+# Architecture de déploiement de la plateforme Ohana
 
 ## 1. Introduction
 
-La plateforme Ohanna est conçue pour être déployée de manière modulaire.
+La plateforme Ohana est conçue pour être déployée de manière modulaire.
 
 Chaque composant possède une responsabilité clairement définie et peut évoluer indépendamment des autres.
 
@@ -31,7 +31,7 @@ L'architecture de déploiement poursuit plusieurs objectifs.
 
 La plateforme est composée de plusieurs produits indépendants.
 
-## Ohanna Platform
+## Ohana Platform
 
 Référentiel documentaire.
 
@@ -39,7 +39,7 @@ Il ne participe pas à l'exécution de la plateforme.
 
 ---
 
-## Ohanna Agent
+## Ohana Agent
 
 Moteur d'observation.
 
@@ -47,7 +47,7 @@ Il supervise les capacités, collecte les observations et expose les information
 
 ---
 
-## Ohanna Vision
+## Ohana Vision
 
 Interface utilisateur.
 
@@ -59,7 +59,7 @@ Elle consomme les données produites par l'agent afin d'offrir une représentati
 
 L'infrastructure représente l'ensemble des équipements, services et ressources observés par la plateforme.
 
-Elle reste indépendante des composants Ohanna.
+Elle reste indépendante des composants Ohana.
 
 ---
 
@@ -88,7 +88,7 @@ La plateforme peut être déployée selon différents scénarios.
 
 Le déploiement minimal comprend :
 
-* un Ohanna Agent ;
+* un Ohana Agent ;
 * une infrastructure supervisée.
 
 Ce scénario permet de produire des observations sans interface graphique.
@@ -99,8 +99,8 @@ Ce scénario permet de produire des observations sans interface graphique.
 
 Le déploiement standard comprend :
 
-* un Ohanna Agent ;
-* un Ohanna Vision ;
+* un Ohana Agent ;
+* un Ohana Vision ;
 * une infrastructure supervisée.
 
 Il constitue le scénario recommandé.
@@ -109,12 +109,12 @@ Il constitue le scénario recommandé.
 
 ## Déploiement de référence
 
-Le déploiement de référence correspond au projet Ohanna House.
+Le déploiement de référence correspond au projet Ohana House.
 
 Il rassemble :
 
-* Ohanna Agent ;
-* Ohanna Vision ;
+* Ohana Agent ;
+* Ohana Vision ;
 * l'infrastructure réelle ;
 * les configurations de référence.
 
@@ -139,11 +139,11 @@ Ces évolutions ne remettent pas en cause les principes fondamentaux de la plate
 
 Les composants communiquent uniquement au travers d'interfaces clairement définies.
 
-Les observations sont publiées par Ohanna Agent.
+Les observations sont publiées par Ohana Agent.
 
 Les interfaces exposent les informations nécessaires aux autres produits.
 
-Ohanna Vision consomme ces informations sans intervenir dans leur production.
+Ohana Vision consomme ces informations sans intervenir dans leur production.
 
 Cette séparation garantit l'indépendance des composants.
 
@@ -232,7 +232,7 @@ Ces évolutions s'inscrivent dans les principes architecturaux définis par la p
 
 # 13. Conclusion
 
-L'architecture de déploiement d'Ohanna repose sur une séparation claire des responsabilités entre les différents produits.
+L'architecture de déploiement d'Ohana repose sur une séparation claire des responsabilités entre les différents produits.
 
 Cette organisation garantit une plateforme modulaire, extensible et adaptée à des contextes de déploiement variés.
 

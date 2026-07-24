@@ -1,8 +1,8 @@
-# Principes architecturaux de la plateforme Ohanna
+# Principes architecturaux de la plateforme Ohana
 
 ## 1. Introduction
 
-La plateforme Ohanna repose sur un ensemble de principes d'architecture qui guident la conception, le développement et l'évolution de l'ensemble de l'écosystème.
+La plateforme Ohana repose sur un ensemble de principes d'architecture qui guident la conception, le développement et l'évolution de l'ensemble de l'écosystème.
 
 Ces principes constituent un cadre de décision commun à tous les projets de la plateforme.
 
@@ -243,7 +243,7 @@ La simplicité reste un objectif permanent de la plateforme.
 
 # 9. Conclusion
 
-Les principes définis dans ce document constituent le socle architectural commun à l'ensemble de l'écosystème Ohanna.
+Les principes définis dans ce document constituent le socle architectural commun à l'ensemble de l'écosystème Ohana.
 
 Ils assurent la cohérence entre les différents produits, facilitent leur évolution et garantissent une architecture stable, modulaire et durable.
 

@@ -4,7 +4,7 @@
      viewBox="0 0 420 96"
      role="img"
      aria-labelledby="title">
-  <title id="title">Ohanna Wordmark</title>
+  <title id="title">Ohana Wordmark</title>
 
   <style>
     .word {
@@ -16,5 +16,5 @@
     }
   </style>
 
-  <text x="8" y="68" class="word">Ohanna</text>
+  <text x="8" y="68" class="word">Ohana</text>
 </svg>

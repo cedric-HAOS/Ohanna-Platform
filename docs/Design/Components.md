@@ -1,6 +1,6 @@
 # Components.md
 
-# Ohanna — UI Components
+# Ohana — UI Components
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 # 1. Philosophie
 
-Les composants constituent les briques fondamentales de toutes les interfaces Ohanna.
+Les composants constituent les briques fondamentales de toutes les interfaces Ohana.
 
 Chaque composant doit être :
 
@@ -169,7 +169,7 @@ Ne doit jamais remplacer un bouton.
 
 # 10. Health Badge
 
-Composant spécifique à Ohanna.
+Composant spécifique à Ohana.
 
 Affiche l'état métier.
 
@@ -281,7 +281,7 @@ Les tableaux restent lisibles sur petits écrans.
 
 # 18. Timeline
 
-Composant métier Ohanna.
+Composant métier Ohana.
 
 Affiche les périodes d'état.
 
@@ -297,7 +297,7 @@ La timeline repose exclusivement sur les périodes calculées par le Timeline En
 
 # 19. Topology View
 
-Composant métier Ohanna.
+Composant métier Ohana.
 
 Affiche :
 
@@ -501,8 +501,8 @@ Tous les composants interactifs doivent :
 # 35. Règles fondamentales
 
 * Un composant répond à une seule responsabilité.
-* Un composant est réutilisable dans plusieurs produits Ohanna.
-* Les composants métier (Timeline, Topology, Health Badge, KPI Card, etc.) sont spécifiques à l'écosystème Ohanna.
+* Un composant est réutilisable dans plusieurs produits Ohana.
+* Les composants métier (Timeline, Topology, Health Badge, KPI Card, etc.) sont spécifiques à l'écosystème Ohana.
 * Les composants génériques (Button, Card, Modal, Table, etc.) peuvent être utilisés dans tous les modules.
 * Toute création d'un nouveau composant doit être validée avant son intégration au Design System.
 * Les composants existants doivent être enrichis avant d'en créer de nouveaux afin de préserver la cohérence et de limiter la duplication.

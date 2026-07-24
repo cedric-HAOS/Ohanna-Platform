@@ -1,8 +1,8 @@
-# Installer Ohanna-Agent
+# Installer Ohana-Agent
 
-Ce guide décrit l'installation d'**Ohanna-Agent** en environnement de développement.
+Ce guide décrit l'installation d'**Ohana-Agent** en environnement de développement.
 
-À l'issue de cette procédure, vous disposerez d'un agent fonctionnel capable d'exécuter des capacités, de produire des observations et de les publier vers Ohanna-Vision.
+À l'issue de cette procédure, vous disposerez d'un agent fonctionnel capable d'exécuter des capacités, de produire des observations et de les publier vers Ohana-Vision.
 
 ---
 
@@ -31,9 +31,9 @@ pip --version
 # Étape 1 — Cloner le dépôt
 
 ```bash
-git clone https://github.com/<organisation>/Ohanna-Agent.git
+git clone https://github.com/<organisation>/Ohana-Agent.git
 
-cd Ohanna-Agent
+cd Ohana-Agent
 ```
 
 Vérifier le contenu du dépôt :
@@ -93,7 +93,7 @@ Mettre pip à jour :
 pip install --upgrade pip
 ```
 
-Installer Ohanna-Agent :
+Installer Ohana-Agent :
 
 ```bash
 pip install -e .
@@ -102,7 +102,7 @@ pip install -e .
 Vérifier que l'installation est correcte :
 
 ```bash
-ohanna-agent --help
+ohana-agent --help
 ```
 
 La commande doit afficher les options disponibles.
@@ -129,12 +129,12 @@ Tous les tests doivent réussir.
 
 ---
 
-# Étape 5 — Démarrer Ohanna-Agent
+# Étape 5 — Démarrer Ohana-Agent
 
 Lancer l'agent avec la configuration fournie :
 
 ```bash
-ohanna-agent \
+ohana-agent \
     --config config/application.yaml \
     --infrastructure config/infrastructure.yaml
 ```
@@ -142,7 +142,7 @@ ohanna-agent \
 Selon les plugins utilisés, des paramètres supplémentaires peuvent être nécessaires, par exemple :
 
 ```bash
-ohanna-agent \
+ohana-agent \
     --config config/application.yaml \
     --infrastructure config/infrastructure.yaml \
     --dns-config config/plugins/dns.yaml
@@ -194,7 +194,7 @@ Supprimer ensuite le répertoire du projet.
 
 # Dépannage
 
-## La commande `ohanna-agent` est introuvable
+## La commande `ohana-agent` est introuvable
 
 Vérifier que l'environnement virtuel est activé.
 
@@ -230,4 +230,4 @@ Vérifier que vous utilisez une version de Python compatible et que toutes les d
 
 ## Étape suivante
 
-Une fois l'installation terminée, vous pouvez installer **Ohanna-Vision** afin de visualiser les observations produites par l'agent.
+Une fois l'installation terminée, vous pouvez installer **Ohana-Vision** afin de visualiser les observations produites par l'agent.

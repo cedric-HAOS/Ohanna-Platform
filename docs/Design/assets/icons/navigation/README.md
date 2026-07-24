@@ -1,4 +1,4 @@
-# Ohanna — Navigation Icons
+# Ohana — Navigation Icons
 
 SVG individuels de la catégorie Navigation.
 

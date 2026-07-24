@@ -2,15 +2,15 @@
 
 ## Vision
 
-Ohanna-Platform constitue le point d’entrée officiel de l’écosystème Ohanna.
+Ohana-Platform constitue le point d’entrée officiel de l’écosystème Ohana.
 
-Le dépôt rassemble la documentation globale, les procédures de déploiement, les outils d’orchestration et les exemples permettant d’installer et d’exploiter Ohanna-Agent et Ohanna-Vision comme une plateforme cohérente.
+Le dépôt rassemble la documentation globale, les procédures de déploiement, les outils d’orchestration et les exemples permettant d’installer et d’exploiter Ohana-Agent et Ohana-Vision comme une plateforme cohérente.
 
 ---
 
 ## Phase 0 — Fondation du dépôt
 
-* [x] Création du dépôt Ohanna-Platform.
+* [x] Création du dépôt Ohana-Platform.
 * [x] Définition de son périmètre.
 * [x] Création de l’arborescence documentaire.
 * [x] Ajout du README.
@@ -24,7 +24,7 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 ## Phase 1 — Documentation de la plateforme
 
 * [ ] Finaliser `docs/Architecture.md`.
-* [ ] Finaliser `docs/Installer-Ohanna-Platform.md`.
+* [ ] Finaliser `docs/Installer-Ohana-Platform.md`.
 * [ ] Rédiger `docs/Operations.md`.
 * [ ] Rédiger `docs/Troubleshooting.md`.
 * [ ] Ajouter une matrice de compatibilité Agent/Vision.
@@ -62,7 +62,7 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 * [ ] Ajouter une procédure de sauvegarde automatisée.
 * [ ] Ajouter une procédure de restauration complète.
 * [ ] Ajouter la rotation des journaux.
-* [ ] Ajouter la supervision d’Ohanna par Ohanna.
+* [ ] Ajouter la supervision d’Ohana par Ohana.
 * [ ] Ajouter les diagnostics automatisés.
 * [ ] Documenter la maintenance préventive.
 
@@ -71,7 +71,7 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 ## Phase 5 — Distribution de la plateforme
 
 * [ ] Publier des releases cohérentes de la plateforme.
-* [ ] Associer les versions compatibles d’Ohanna-Agent et d’Ohanna-Vision.
+* [ ] Associer les versions compatibles d’Ohana-Agent et d’Ohana-Vision.
 * [ ] Fournir des sommes de contrôle.
 * [ ] Fournir des archives de déploiement.
 * [ ] Ajouter un manifeste de plateforme.
@@ -90,4 +90,4 @@ Le dépôt rassemble la documentation globale, les procédures de déploiement, 
 * haute disponibilité ;
 * déploiements distribués ;
 * catalogue de plugins ;
-* SDK Ohanna.
+* SDK Ohana.

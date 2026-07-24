@@ -1,6 +1,6 @@
 # Brand.md
 
-# Ohanna — Brand Identity
+# Ohana — Brand Identity
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 # 1. Vision
 
-Ohanna est une plateforme d'observabilité et d'administration d'infrastructures.
+Ohana est une plateforme d'observabilité et d'administration d'infrastructures.
 
 Sa mission est de fournir une vision claire, fiable et en temps réel de l'état des services, des équipements et des capacités d'une infrastructure, tout en restant simple à déployer, agréable à utiliser et extensible.
 
@@ -27,7 +27,7 @@ Chaque élément graphique doit transmettre un sentiment de maîtrise, de stabil
 
 # 2. Valeurs de la marque
 
-L'identité d'Ohanna repose sur cinq valeurs fondamentales.
+L'identité d'Ohana repose sur cinq valeurs fondamentales.
 
 ## Clarté
 
@@ -51,7 +51,7 @@ Aucune animation ou décoration ne doit perturber la compréhension.
 
 ## Modernité
 
-Ohanna adopte un design contemporain inspiré des outils d'ingénierie modernes.
+Ohana adopte un design contemporain inspiré des outils d'ingénierie modernes.
 
 Le style reste minimaliste, sans surcharge décorative.
 
@@ -67,7 +67,7 @@ Aucun élément graphique n'est présent uniquement pour décorer.
 
 ## Cohérence
 
-Tous les produits Ohanna utilisent les mêmes règles graphiques.
+Tous les produits Ohana utilisent les mêmes règles graphiques.
 
 L'utilisateur doit retrouver les mêmes repères visuels dans l'ensemble de l'écosystème.
 
@@ -75,7 +75,7 @@ L'utilisateur doit retrouver les mêmes repères visuels dans l'ensemble de l'é
 
 # 3. Personnalité visuelle
 
-Ohanna est :
+Ohana est :
 
 * professionnel ;
 * technique ;
@@ -84,7 +84,7 @@ Ohanna est :
 * précis ;
 * fiable.
 
-Ohanna n'est pas :
+Ohana n'est pas :
 
 * ludique ;
 * agressif ;
@@ -109,7 +109,7 @@ L'objectif est d'obtenir une interface intemporelle plutôt qu'un effet de mode.
 
 # 5. Signature graphique
 
-L'identité d'Ohanna repose sur trois éléments majeurs.
+L'identité d'Ohana repose sur trois éléments majeurs.
 
 ## Cercle
 
@@ -147,8 +147,8 @@ Les nœuds symbolisent :
 
 Le logo officiel est composé :
 
-* du symbole Ohanna ;
-* du mot-symbole "Ohanna".
+* du symbole Ohana ;
+* du mot-symbole "Ohana".
 
 Les deux éléments ne doivent jamais être dissociés sauf pour les icônes ou les favicons.
 
@@ -187,7 +187,7 @@ En dessous de cette taille, utiliser le favicon.
 
 # 7. Palette visuelle
 
-L'univers graphique d'Ohanna repose sur des couleurs froides.
+L'univers graphique d'Ohana repose sur des couleurs froides.
 
 Le contraste met en avant les informations importantes sans fatiguer la lecture.
 
@@ -199,7 +199,7 @@ Les couleurs détaillées sont définies dans **Colors.md**.
 
 # 8. Typographie
 
-Ohanna utilise une typographie sans serif moderne.
+Ohana utilise une typographie sans serif moderne.
 
 Les objectifs sont :
 
@@ -269,7 +269,7 @@ Les messages d'erreur expliquent clairement le problème et proposent une action
 
 # 13. Accessibilité
 
-Le design d'Ohanna vise à être accessible.
+Le design d'Ohana vise à être accessible.
 
 Les principes suivants doivent être respectés :
 
@@ -287,8 +287,8 @@ La couleur seule ne doit jamais porter une information critique.
 
 Les produits suivants partagent la même identité visuelle :
 
-* Ohanna-Agent
-* Ohanna-Vision
+* Ohana-Agent
+* Ohana-Vision
 * futurs composants de la plateforme
 
 Le Design System constitue la source unique de vérité pour tous les développements.

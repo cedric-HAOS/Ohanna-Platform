@@ -1,14 +1,14 @@
-# Glossaire de la plateforme Ohanna
+# Glossaire de la plateforme Ohana
 
 ## Introduction
 
-Ce document rassemble les définitions officielles des concepts utilisés dans l'ensemble de la plateforme Ohanna.
+Ce document rassemble les définitions officielles des concepts utilisés dans l'ensemble de la plateforme Ohana.
 
 Il constitue la référence terminologique de l'écosystème.
 
 Les autres documents de la plateforme utilisent les définitions présentées ici afin de garantir une terminologie cohérente.
 
-Toute nouvelle notion métier introduite dans Ohanna doit être définie dans ce glossaire avant d'être utilisée dans la documentation ou le code.
+Toute nouvelle notion métier introduite dans Ohana doit être définie dans ce glossaire avant d'être utilisée dans la documentation ou le code.
 
 ---
 
@@ -24,7 +24,7 @@ Ensemble des opérations permettant de configurer, piloter et maintenir la plate
 
 Produit chargé d'observer l'infrastructure, d'exécuter les capacités et de produire les observations utilisées par le reste de la plateforme.
 
-Voir également : **Ohanna Agent**.
+Voir également : **Ohana Agent**.
 
 ---
 
@@ -70,7 +70,7 @@ La configuration exprime l'intention sans décrire l'implémentation.
 
 ## Connector
 
-Composant assurant les échanges entre Ohanna Agent et un système externe.
+Composant assurant les échanges entre Ohana Agent et un système externe.
 
 ---
 
@@ -126,7 +126,7 @@ Composant chargé de calculer l'état de santé à partir des observations.
 
 Ensemble des équipements, services et ressources supervisés par la plateforme.
 
-L'infrastructure est indépendante des composants Ohanna.
+L'infrastructure est indépendante des composants Ohana.
 
 ---
 
@@ -174,13 +174,13 @@ Les statuts sont définis par le modèle d'observation de la plateforme.
 
 ---
 
-## Ohanna Agent
+## Ohana Agent
 
 Produit chargé de superviser les capacités et de produire les observations.
 
 ---
 
-## Ohanna House
+## Ohana House
 
 Déploiement de référence de la plateforme.
 
@@ -188,7 +188,7 @@ Il valide les choix d'architecture dans une infrastructure réelle.
 
 ---
 
-## Ohanna Platform
+## Ohana Platform
 
 Référentiel officiel de la plateforme.
 
@@ -196,9 +196,9 @@ Il regroupe l'architecture, les guides, les ressources communes et les décision
 
 ---
 
-## Ohanna Vision
+## Ohana Vision
 
-Produit chargé de présenter les informations produites par Ohanna Agent.
+Produit chargé de présenter les informations produites par Ohana Agent.
 
 ---
 
@@ -222,7 +222,7 @@ Transformation d'informations techniques en représentations adaptées à une in
 
 ## Runtime
 
-Cœur d'exécution d'Ohanna Agent.
+Cœur d'exécution d'Ohana Agent.
 
 Il orchestre les plugins, les événements, les observations et les différents moteurs internes.
 
@@ -284,7 +284,7 @@ Personne exploitant la plateforme afin de superviser ou d'administrer une infras
 
 ## Vision
 
-Voir **Ohanna Vision**.
+Voir **Ohana Vision**.
 
 ---
 
@@ -302,6 +302,6 @@ Lorsqu'un terme possède une définition officielle dans ce glossaire, cette dé
 
 Le glossaire est un document vivant.
 
-Toute nouvelle notion métier introduite dans l'écosystème Ohanna doit être ajoutée à ce document.
+Toute nouvelle notion métier introduite dans l'écosystème Ohana doit être ajoutée à ce document.
 
 Les modifications importantes de la terminologie peuvent faire l'objet d'un Architecture Decision Record lorsqu'elles impactent plusieurs produits de la plateforme.

@@ -1,6 +1,6 @@
 # Widgets.md
 
-# Ohanna — Dashboard Widgets
+# Ohana — Dashboard Widgets
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 # 1. Philosophie
 
-Les widgets sont les composants métier de haut niveau des interfaces Ohanna.
+Les widgets sont les composants métier de haut niveau des interfaces Ohana.
 
 Ils transforment les données de la plateforme en informations immédiatement compréhensibles.
 
@@ -783,6 +783,6 @@ Il est interdit :
 
 # 45. Principe fondamental
 
-Un widget Ohanna doit réduire le temps nécessaire pour comprendre l'état de l'infrastructure.
+Un widget Ohana doit réduire le temps nécessaire pour comprendre l'état de l'infrastructure.
 
 S'il ajoute de la complexité sans améliorer la compréhension, il ne doit pas être intégré.

@@ -7,7 +7,7 @@
 
 # Contexte
 
-La plateforme Ohanna est composée de plusieurs produits développés et maintenus de manière indépendante.
+La plateforme Ohana est composée de plusieurs produits développés et maintenus de manière indépendante.
 
 Son architecture évoluera progressivement afin d'intégrer de nouvelles capacités, de nouveaux composants et de nouveaux scénarios de déploiement.
 
@@ -33,7 +33,7 @@ Les ADR constituent la référence officielle des choix d'architecture de la pla
 
 # Portée
 
-Les ADR présents dans **Ohanna-Platform** concernent exclusivement les décisions ayant un impact sur l'ensemble de l'écosystème.
+Les ADR présents dans **Ohana-Platform** concernent exclusivement les décisions ayant un impact sur l'ensemble de l'écosystème.
 
 Ils couvrent notamment :
 
@@ -48,9 +48,9 @@ Les décisions propres à un produit restent documentées dans le dépôt corres
 
 Par exemple :
 
-* les décisions relatives au runtime d'Ohanna Agent sont documentées dans **Ohanna-Agent** ;
-* les décisions relatives à l'interface et aux moteurs de visualisation sont documentées dans **Ohanna-Vision** ;
-* les décisions propres à une infrastructure restent documentées dans **Ohanna-House**.
+* les décisions relatives au runtime d'Ohana Agent sont documentées dans **Ohana-Agent** ;
+* les décisions relatives à l'interface et aux moteurs de visualisation sont documentées dans **Ohana-Vision** ;
+* les décisions propres à une infrastructure restent documentées dans **Ohana-House**.
 
 ---
 
@@ -129,13 +129,13 @@ L'adoption des Architecture Decision Records apporte plusieurs bénéfices :
 * cohérence entre les différents produits ;
 * facilité d'intégration de nouveaux contributeurs.
 
-Les ADR constituent ainsi la mémoire architecturale officielle de l'écosystème Ohanna.
+Les ADR constituent ainsi la mémoire architecturale officielle de l'écosystème Ohana.
 
 ---
 
 # ADR associés
 
-Les premières décisions documentées dans Ohanna Platform sont les suivantes :
+Les premières décisions documentées dans Ohana Platform sont les suivantes :
 
 * **ADR-0000** — Architecture Decision Records
 * **ADR-0001** — Architecture de la plateforme

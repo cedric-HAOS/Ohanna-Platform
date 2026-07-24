@@ -4,7 +4,7 @@
      viewBox="0 0 640 160"
      role="img"
      aria-labelledby="title">
-<title id="title">Ohanna Logo</title>
+<title id="title">Ohana Logo</title>
 
 <g transform="translate(16,16) scale(1)">
 
@@ -81,6 +81,6 @@
       font-size="64"
       font-weight="700"
       letter-spacing="-1.6"
-      fill="#1F2937">Ohanna</text>
+      fill="#1F2937">Ohana</text>
 
 </svg>

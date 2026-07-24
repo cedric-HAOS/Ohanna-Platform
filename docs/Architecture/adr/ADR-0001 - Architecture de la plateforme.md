@@ -7,7 +7,7 @@
 
 # Contexte
 
-La plateforme Ohanna a pour objectif de superviser, visualiser et administrer une infrastructure de manière modulaire, observable et extensible.
+La plateforme Ohana a pour objectif de superviser, visualiser et administrer une infrastructure de manière modulaire, observable et extensible.
 
 Au cours de sa conception, plusieurs architectures ont été envisagées.
 
@@ -21,7 +21,7 @@ Compte tenu des objectifs de la plateforme, la seconde approche a été retenue.
 
 # Décision
 
-La plateforme Ohanna est organisée comme un écosystème de produits indépendants, chacun possédant une responsabilité clairement définie.
+La plateforme Ohana est organisée comme un écosystème de produits indépendants, chacun possédant une responsabilité clairement définie.
 
 Les produits communiquent exclusivement au travers d'interfaces publiques et de modèles partagés.
 
@@ -33,7 +33,7 @@ Chaque produit possède :
 * ses propres Architecture Decision Records (ADR) ;
 * ses propres tests.
 
-Les décisions ayant un impact sur l'ensemble de la plateforme sont documentées dans Ohanna Platform.
+Les décisions ayant un impact sur l'ensemble de la plateforme sont documentées dans Ohana Platform.
 
 ---
 
@@ -41,7 +41,7 @@ Les décisions ayant un impact sur l'ensemble de la plateforme sont documentées
 
 La plateforme est composée des produits suivants.
 
-## Ohanna Platform
+## Ohana Platform
 
 Référentiel officiel de la plateforme.
 
@@ -57,7 +57,7 @@ Il constitue la source de vérité de l'écosystème.
 
 ---
 
-## Ohanna Agent
+## Ohana Agent
 
 Moteur d'observation.
 
@@ -67,17 +67,17 @@ Il ne possède aucune responsabilité de présentation.
 
 ---
 
-## Ohanna Vision
+## Ohana Vision
 
 Interface de visualisation et d'administration.
 
-Il transforme les informations produites par Ohanna Agent en représentations graphiques adaptées aux utilisateurs.
+Il transforme les informations produites par Ohana Agent en représentations graphiques adaptées aux utilisateurs.
 
 Il ne participe pas à la production des observations.
 
 ---
 
-## Ohanna House
+## Ohana House
 
 Déploiement de référence de la plateforme.
 
@@ -127,7 +127,7 @@ Une évolution locale ne doit pas imposer une modification des autres composants
 
 Chaque produit documente son propre fonctionnement.
 
-Ohanna Platform documente uniquement les éléments transversaux à l'ensemble de l'écosystème.
+Ohana Platform documente uniquement les éléments transversaux à l'ensemble de l'écosystème.
 
 ---
 

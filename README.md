@@ -1,4 +1,4 @@
-# Ohanna Platform
+# Ohana Platform
 
 > **A modular infrastructure supervision platform built around observation, health monitoring and real-time visualization.**
 
@@ -6,9 +6,9 @@
 
 ## Overview
 
-Ohanna Platform is an open, modular platform designed to supervise infrastructure through standardized observations.
+Ohana Platform is an open, modular platform designed to supervise infrastructure through standardized observations.
 
-Rather than coupling data collection and visualization into a single application, Ohanna separates responsibilities into independent components that communicate through well-defined interfaces.
+Rather than coupling data collection and visualization into a single application, Ohana separates responsibilities into independent components that communicate through well-defined interfaces.
 
 This architecture provides:
 
@@ -27,12 +27,12 @@ This architecture provides:
                     Infrastructure
                            │
                            ▼
-                  Ohanna-Agent
+                  Ohana-Agent
                            │
                  REST Observations
                            │
                            ▼
-                  Ohanna-Vision
+                  Ohana-Vision
                            │
                   Web Dashboard
                            │
@@ -44,7 +44,7 @@ This architecture provides:
 
 # Components
 
-## Ohanna-Agent
+## Ohana-Agent
 
 **Infrastructure observation engine**
 
@@ -59,12 +59,12 @@ Responsibilities:
 Repository
 
 ```text
-https://github.com/<your-account>/Ohanna-Agent
+https://github.com/<your-account>/Ohana-Agent
 ```
 
 ---
 
-## Ohanna-Vision
+## Ohana-Vision
 
 **Real-time supervision dashboard**
 
@@ -80,12 +80,12 @@ Responsibilities:
 Repository
 
 ```text
-https://github.com/<your-account>/Ohanna-Vision
+https://github.com/<your-account>/Ohana-Vision
 ```
 
 ---
 
-## Ohanna-Platform
+## Ohana-Platform
 
 This repository.
 
@@ -100,11 +100,11 @@ Responsibilities:
 
 ---
 
-## Ohanna-House
+## Ohana-House
 
 Reference deployment of the platform.
 
-This repository documents a real-world installation of Ohanna within a home infrastructure and provides practical deployment examples.
+This repository documents a real-world installation of Ohana within a home infrastructure and provides practical deployment examples.
 
 ---
 
@@ -115,7 +115,7 @@ The complete documentation is available in the `docs` directory.
 | Document                  | Description                        |
 | ------------------------- | ---------------------------------- |
 | Architecture              | Global platform architecture       |
-| Installer-Ohanna-Platform | Complete installation guide        |
+| Installer-Ohana-Platform | Complete installation guide        |
 | Operations                | Production operation guide         |
 | Troubleshooting           | Diagnostics and problem resolution |
 
@@ -123,8 +123,8 @@ The complete documentation is available in the `docs` directory.
 
 # Getting Started
 
-1. Install **Ohanna-Agent**.
-2. Install **Ohanna-Vision**.
+1. Install **Ohana-Agent**.
+2. Install **Ohana-Vision**.
 3. Configure the infrastructure.
 4. Connect Agent to Vision.
 5. Open the dashboard.
@@ -132,7 +132,7 @@ The complete documentation is available in the `docs` directory.
 The complete procedure is described in:
 
 ```text
-docs/Installer-Ohanna-Platform.md
+docs/Installer-Ohana-Platform.md
 ```
 
 ---
@@ -140,7 +140,7 @@ docs/Installer-Ohanna-Platform.md
 # Repository Structure
 
 ```text
-Ohanna-Platform/
+Ohana-Platform/
 
 docs/
 examples/
@@ -155,7 +155,7 @@ CHANGELOG.md
 
 # Version Compatibility
 
-Platform releases define validated combinations of Ohanna-Agent and Ohanna-Vision.
+Platform releases define validated combinations of Ohana-Agent and Ohana-Vision.
 
 | Platform | Agent  | Vision |
 | -------- | ------ | ------ |
@@ -175,7 +175,7 @@ ROADMAP.md
 
 # Contributing
 
-At this stage, the platform is primarily developed as the reference implementation of the Ohanna ecosystem.
+At this stage, the platform is primarily developed as the reference implementation of the Ohana ecosystem.
 
 Contribution guidelines will be published in a future release.
 

@@ -1,6 +1,6 @@
 # Colors.md
 
-# Ohanna — Color System
+# Ohana — Color System
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 # 1. Philosophie
 
-La palette d'Ohanna repose sur un principe simple :
+La palette d'Ohana repose sur un principe simple :
 
 * fond sombre pour réduire la fatigue visuelle ;
 * contraste élevé pour favoriser la lisibilité ;
@@ -91,7 +91,7 @@ Utilisation :
 
 # 3. Couleur d'accent
 
-Le turquoise est la signature graphique d'Ohanna.
+Le turquoise est la signature graphique d'Ohana.
 
 Il représente :
 
@@ -368,5 +368,5 @@ Les composants métier utilisent toujours des couleurs opaques.
 * Les couleurs sont utilisées exclusivement via les variables CSS officielles.
 * Aucune valeur hexadécimale ne doit être codée directement dans les composants.
 * Les couleurs métier (`success`, `warning`, `error`, `unknown`) sont réservées à la représentation de l'état des capacités et des services.
-* Le turquoise (`primary`) constitue la signature visuelle d'Ohanna et ne doit jamais être remplacé par une autre couleur d'accent.
+* Le turquoise (`primary`) constitue la signature visuelle d'Ohana et ne doit jamais être remplacé par une autre couleur d'accent.
 * Toute nouvelle couleur doit être ajoutée à ce document avant son utilisation dans le projet.

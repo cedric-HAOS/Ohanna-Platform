@@ -1,6 +1,6 @@
     # Spacing.md
 
-# Ohanna — Spacing System
+# Ohana — Spacing System
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 # 1. Philosophie
 
-Le système d'espacement d'Ohanna repose sur une grille de **4 pixels**.
+Le système d'espacement d'Ohana repose sur une grille de **4 pixels**.
 
 Tous les espacements de l'interface sont des multiples de cette unité.
 

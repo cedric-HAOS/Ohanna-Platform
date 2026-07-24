@@ -1,6 +1,6 @@
 # Examples.md
 
-# Ohanna — Design System Examples
+# Ohana — Design System Examples
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 # 1. Objectif
 
-Ce document présente des exemples d'application du Design System Ohanna.
+Ce document présente des exemples d'application du Design System Ohana.
 
 Il illustre :
 
@@ -100,7 +100,7 @@ Règles appliquées :
 ```text
 Vue d'ensemble
 
-État général de la plateforme Ohanna.
+État général de la plateforme Ohana.
 
 ┌──────────────────────────────────────────────────────┐
 │ Santé globale                                        │
@@ -488,7 +488,7 @@ Mauvais exemple :
 # 20. Exemple de Sidebar
 
 ```text
-Ohanna
+Ohana
 
 Vue d'ensemble
 Infrastructure
@@ -847,7 +847,7 @@ Observations associées
 
 # 38. Exemple de bonnes pratiques
 
-Une bonne interface Ohanna :
+Une bonne interface Ohana :
 
 * affiche l'état global immédiatement ;
 * hiérarchise clairement les anomalies ;
@@ -861,7 +861,7 @@ Une bonne interface Ohanna :
 
 # 39. Exemple de mauvaises pratiques
 
-Une interface Ohanna ne doit pas :
+Une interface Ohana ne doit pas :
 
 * empiler trop de cartes ;
 * afficher toutes les données sur une seule page ;
@@ -883,4 +883,4 @@ Toute nouvelle vue doit reprendre les mêmes principes de hiérarchie, d'espacem
 
 Le Design System n'a pas pour objectif de rendre toutes les pages identiques.
 
-Il doit leur donner un langage commun immédiatement reconnaissable comme appartenant à Ohanna.
+Il doit leur donner un langage commun immédiatement reconnaissable comme appartenant à Ohana.

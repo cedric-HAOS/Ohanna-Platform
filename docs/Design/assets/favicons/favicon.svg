@@ -2,8 +2,8 @@
      viewBox="0 0 128 128"
      role="img"
      aria-labelledby="title desc">
-  <title id="title">Ohanna Symbol Master v1.3</title>
-  <desc id="desc">Symbole officiel Ohanna, concept Clover C : quatre pétales organiques de hauteurs légèrement différentes, disposés autour d’un espace négatif central.</desc>
+  <title id="title">Ohana Symbol Master v1.3</title>
+  <desc id="desc">Symbole officiel Ohana, concept Clover C : quatre pétales organiques de hauteurs légèrement différentes, disposés autour d’un espace négatif central.</desc>
 
   <defs>
     <linearGradient id="gradient-blue" x1="40" y1="10" x2="67" y2="55" gradientUnits="userSpaceOnUse">

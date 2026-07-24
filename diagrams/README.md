@@ -1,6 +1,6 @@
-# Diagrammes officiels de la plateforme Ohanna
+# Diagrammes officiels de la plateforme Ohana
 
-Ce répertoire rassemble l'ensemble des diagrammes SVG officiels de la plateforme Ohanna.
+Ce répertoire rassemble l'ensemble des diagrammes SVG officiels de la plateforme Ohana.
 
 Les diagrammes constituent la représentation graphique de l'architecture de référence. Ils complètent la documentation présente dans le répertoire `docs/` et sont utilisés dans les différents documents d'architecture, les guides et les présentations.
 
@@ -41,7 +41,7 @@ Les diagrammes contenus dans `architecture/` décrivent la structure générale 
 
 | Diagramme                   | Description                                                                                   |
 | --------------------------- | --------------------------------------------------------------------------------------------- |
-| `ecosystem.svg`             | Vue d'ensemble de l'écosystème Ohanna et des relations entre les composants de la plateforme. |
+| `ecosystem.svg`             | Vue d'ensemble de l'écosystème Ohana et des relations entre les composants de la plateforme. |
 | `platform-architecture.svg` | Architecture logique de la plateforme organisée en couches fonctionnelles.                    |
 | `data-flow.svg`             | Vue synthétique du parcours des données à travers les principaux composants.                  |
 
@@ -76,10 +76,10 @@ Les diagrammes contenus dans `deployment/` présentent les différents scénario
 
 # Conventions graphiques
 
-Tous les diagrammes officiels respectent les conventions du Design System Ohanna.
+Tous les diagrammes officiels respectent les conventions du Design System Ohana.
 
 * Palette de couleurs officielle de la plateforme.
-* Fond sombre Ohanna.
+* Fond sombre Ohana.
 * Accent turquoise pour les flux principaux et les composants mis en évidence.
 * Gris bleuté pour les relations secondaires.
 * Hiérarchie visuelle homogène entre tous les diagrammes.

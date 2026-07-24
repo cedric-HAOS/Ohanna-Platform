@@ -1,8 +1,8 @@
-# Architecture de la plateforme Ohanna
+# Architecture de la plateforme Ohana
 
 ## 1. Introduction
 
-Ohanna est une plateforme d'observabilité conçue pour superviser, analyser et administrer une infrastructure de manière déclarative, résiliente et extensible.
+Ohana est une plateforme d'observabilité conçue pour superviser, analyser et administrer une infrastructure de manière déclarative, résiliente et extensible.
 
 La plateforme repose sur une séparation claire des responsabilités entre l'acquisition des observations, leur traitement, leur visualisation et leur déploiement.
 
@@ -14,23 +14,23 @@ Ce document constitue la référence architecturale officielle de la plateforme.
 
 # 2. Vision
 
-La plateforme Ohanna est organisée autour de plusieurs produits complémentaires, chacun possédant une responsabilité clairement définie.
+La plateforme Ohana est organisée autour de plusieurs produits complémentaires, chacun possédant une responsabilité clairement définie.
 
-* **Ohanna Platform** constitue le référentiel officiel de la plateforme. Il regroupe l'architecture, la documentation, les guides de déploiement, les ressources communes et les décisions d'architecture.
+* **Ohana Platform** constitue le référentiel officiel de la plateforme. Il regroupe l'architecture, la documentation, les guides de déploiement, les ressources communes et les décisions d'architecture.
 
-* **Ohanna Agent** est le moteur d'observation. Il exécute les capacités, collecte les observations, pilote les plugins et publie les événements produits par l'infrastructure.
+* **Ohana Agent** est le moteur d'observation. Il exécute les capacités, collecte les observations, pilote les plugins et publie les événements produits par l'infrastructure.
 
-* **Ohanna Vision** est l'interface de visualisation et d'administration. Il présente l'état de l'infrastructure en temps réel, conserve l'historique des observations et offre une représentation graphique des capacités supervisées.
+* **Ohana Vision** est l'interface de visualisation et d'administration. Il présente l'état de l'infrastructure en temps réel, conserve l'historique des observations et offre une représentation graphique des capacités supervisées.
 
-* **Ohanna House** est le déploiement de référence de la plateforme. Il constitue une implémentation réelle permettant de valider les choix d'architecture, les guides de déploiement et les évolutions de la plateforme.
+* **Ohana House** est le déploiement de référence de la plateforme. Il constitue une implémentation réelle permettant de valider les choix d'architecture, les guides de déploiement et les évolutions de la plateforme.
 
-Ces produits forment ensemble l'écosystème Ohanna.
+Ces produits forment ensemble l'écosystème Ohana.
 
 ---
 
 # 3. Philosophie
 
-La conception d'Ohanna repose sur plusieurs principes fondamentaux.
+La conception d'Ohana repose sur plusieurs principes fondamentaux.
 
 Une infrastructure est décrite par les capacités qu'elle fournit plutôt que par les technologies qu'elle utilise.
 
@@ -48,19 +48,19 @@ L'architecture privilégie la simplicité, la lisibilité et la stabilité plut�
 
 # 4. les composants de la plateforme
 
-## Ohanna Platform
+## Ohana Platform
 
-Ohanna Platform rassemble l'ensemble de la documentation officielle de la plateforme.
+Ohana Platform rassemble l'ensemble de la documentation officielle de la plateforme.
 
 Il définit les principes architecturaux, les conventions, les guides de déploiement, les ressources graphiques et les références communes utilisées par tous les autres projets.
 
-Il constitue la source de vérité de l'écosystème Ohanna.
+Il constitue la source de vérité de l'écosystème Ohana.
 
 ---
 
-## Ohanna Agent
+## Ohana Agent
 
-Ohanna Agent est le moteur d'exécution de la plateforme.
+Ohana Agent est le moteur d'exécution de la plateforme.
 
 Il orchestre les capacités, exécute les plugins, collecte les observations, publie les événements et expose les données nécessaires aux autres composants.
 
@@ -68,9 +68,9 @@ L'agent ne possède aucune logique de présentation.
 
 ---
 
-## Ohanna Vision
+## Ohana Vision
 
-Ohanna Vision fournit une représentation graphique de l'état de l'infrastructure.
+Ohana Vision fournit une représentation graphique de l'état de l'infrastructure.
 
 Il exploite les observations produites par l'agent afin de présenter :
 
@@ -84,9 +84,9 @@ Vision reste indépendant du moteur d'exécution.
 
 ---
 
-## Ohanna House
+## Ohana House
 
-Ohanna House représente une infrastructure réelle utilisant l'ensemble des composants de la plateforme.
+Ohana House représente une infrastructure réelle utilisant l'ensemble des composants de la plateforme.
 
 Il sert de référence pour les procédures d'installation, les scénarios de validation et les démonstrations.
 
@@ -96,7 +96,7 @@ Il permet de vérifier les choix d'architecture dans des conditions proches de l
 
 # 5. Les couches de la plateforme
 
-L'architecture d'Ohanna est organisée selon plusieurs couches successives.
+L'architecture d'Ohana est organisée selon plusieurs couches successives.
 
 ## Infrastructure
 
@@ -116,7 +116,7 @@ Ils implémentent une capacité métier spécifique sans connaître le fonctionn
 
 ## Runtime
 
-Le runtime constitue le cœur d'Ohanna Agent.
+Le runtime constitue le cœur d'Ohana Agent.
 
 Il orchestre les plugins, le planificateur, le bus d'événements, les moteurs internes et les exportateurs.
 
@@ -167,7 +167,7 @@ Chaque flux est documenté en détail dans le document *Flux.md*.
 
 # 7. Les capacités
 
-La capacité constitue l'unité fonctionnelle fondamentale d'Ohanna.
+La capacité constitue l'unité fonctionnelle fondamentale d'Ohana.
 
 Une capacité représente un service observable fourni par une infrastructure.
 
@@ -218,10 +218,10 @@ L'intégration de nouvelles fonctionnalités doit respecter les principes archit
 
 # 10. Évolutions futures
 
-L'architecture d'Ohanna est pensée comme une base stable destinée à évoluer progressivement.
+L'architecture d'Ohana est pensée comme une base stable destinée à évoluer progressivement.
 
 Les décisions structurantes sont documentées dans les Architecture Decision Records (ADR).
 
 Toute évolution majeure de la plateforme doit préserver la cohérence de l'écosystème, la stabilité des interfaces publiques et la compatibilité des concepts fondamentaux.
 
-Ce document constitue la référence architecturale de l'ensemble des projets Ohanna.
+Ce document constitue la référence architecturale de l'ensemble des projets Ohana.

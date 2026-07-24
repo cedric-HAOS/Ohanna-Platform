@@ -1,14 +1,14 @@
-# Flux de la plateforme Ohanna
+# Flux de la plateforme Ohana
 
 ## 1. Introduction
 
-La plateforme Ohanna repose sur un ensemble de flux permettant aux différents composants de collaborer de manière cohérente, découplée et observable.
+La plateforme Ohana repose sur un ensemble de flux permettant aux différents composants de collaborer de manière cohérente, découplée et observable.
 
 Chaque flux représente un échange fonctionnel entre plusieurs composants de la plateforme.
 
 Les flux sont indépendants des technologies utilisées pour leur implémentation.
 
-Ils décrivent les échanges métier qui structurent le fonctionnement de l'écosystème Ohanna.
+Ils décrivent les échanges métier qui structurent le fonctionnement de l'écosystème Ohana.
 
 ---
 
@@ -34,7 +34,7 @@ Le flux d'observation constitue le cœur de la plateforme.
 
 Les capacités supervisées produisent des observations décrivant leur état.
 
-Ces observations sont collectées par Ohanna Agent puis traitées par le runtime avant d'être mises à disposition des autres composants.
+Ces observations sont collectées par Ohana Agent puis traitées par le runtime avant d'être mises à disposition des autres composants.
 
 Les observations représentent la source de vérité de la plateforme.
 
@@ -87,7 +87,7 @@ Les observations successives sont regroupées afin de construire une chronologie
 
 Cette chronologie permet de représenter l'évolution des capacités dans le temps.
 
-Elle constitue la base de la timeline affichée par Ohanna Vision.
+Elle constitue la base de la timeline affichée par Ohana Vision.
 
 ### Objectifs
 
@@ -99,7 +99,7 @@ Elle constitue la base de la timeline affichée par Ohanna Vision.
 
 # 7. Flux de visualisation
 
-Ohanna Vision consomme les informations produites par Ohanna Agent.
+Ohana Vision consomme les informations produites par Ohana Agent.
 
 Les données sont transformées en représentations graphiques adaptées aux utilisateurs.
 
@@ -206,8 +206,8 @@ Toute évolution devra préserver la séparation des responsabilités et la coh�
 
 # 13. Conclusion
 
-Les flux décrits dans ce document représentent les échanges fonctionnels de la plateforme Ohanna.
+Les flux décrits dans ce document représentent les échanges fonctionnels de la plateforme Ohana.
 
 Ils définissent la manière dont les composants collaborent tout en restant indépendants de leur implémentation technique.
 
-Ces flux constituent la base des diagrammes d'architecture et des interfaces publiques de l'écosystème Ohanna.
+Ces flux constituent la base des diagrammes d'architecture et des interfaces publiques de l'écosystème Ohana.

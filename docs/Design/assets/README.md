@@ -1,11 +1,11 @@
-# Assets graphiques — Ohanna Platform
+# Assets graphiques — Ohana Platform
 
-Les ressources de ce dossier constituent la bibliothèque graphique officielle de la plateforme **Ohanna**.
+Les ressources de ce dossier constituent la bibliothèque graphique officielle de la plateforme **Ohana**.
 
 Elles sont partagées par l'ensemble des projets :
 
-* Ohanna-Agent
-* Ohanna-Vision
+* Ohana-Agent
+* Ohana-Vision
 * futurs produits de la plateforme
 * documentation officielle
 * site web
@@ -31,7 +31,7 @@ Chaque dossier possède une responsabilité unique.
 
 | Dossier       | Contenu                                                |
 | ------------- | ------------------------------------------------------ |
-| logos         | Logos officiels Ohanna                                 |
+| logos         | Logos officiels Ohana                                 |
 | icons         | Icônes SVG utilisées par l'interface                   |
 | favicons      | Icônes navigateurs et PWA                              |
 | illustrations | Illustrations, états vides et erreurs                  |
@@ -263,7 +263,7 @@ Toute nouvelle ressource graphique doit respecter :
 * la grille officielle ;
 * la palette officielle ;
 * les conventions de nommage ;
-* le style graphique Ohanna.
+* le style graphique Ohana.
 
 Les nouvelles icônes doivent conserver une cohérence visuelle avec les ressources existantes.
 
@@ -271,6 +271,6 @@ Les nouvelles icônes doivent conserver une cohérence visuelle avec les ressour
 
 # Philosophie
 
-Les assets graphiques d'Ohanna poursuivent un objectif unique :
+Les assets graphiques d'Ohana poursuivent un objectif unique :
 
 **Rendre une infrastructure complexe immédiatement lisible grâce à une identité visuelle simple, cohérente et durable.**

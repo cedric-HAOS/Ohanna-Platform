@@ -1,4 +1,4 @@
-# Ohanna — Official Icon Catalog
+# Ohana — Official Icon Catalog
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 Chaque concept de la plateforme possède une icône officielle.
 
-Cette correspondance est identique dans tous les produits Ohanna.
+Cette correspondance est identique dans tous les produits Ohana.
 
 Les icônes proviennent de la bibliothèque **Lucide**.
 
@@ -281,15 +281,15 @@ Les icônes proviennent de la bibliothèque **Lucide**.
 
 ---
 
-# 18. Technologies Ohanna
+# 18. Technologies Ohana
 
-Les composants propres à Ohanna utilisent une iconographie dédiée.
+Les composants propres à Ohana utilisent une iconographie dédiée.
 
 | Élément               | Icône         |
 | --------------------- | ------------- |
-| Ohanna Platform       | Logo Ohanna   |
-| Ohanna-Agent          | Bot           |
-| Ohanna-Vision         | Eye           |
+| Ohana Platform       | Logo Ohana   |
+| Ohana-Agent          | Bot           |
+| Ohana-Vision         | Eye           |
 | Timeline Engine       | Clock3        |
 | Health Engine         | HeartPulse    |
 | Observation Processor | ScanEye       |
@@ -304,7 +304,7 @@ Les composants propres à Ohanna utilisent une iconographie dédiée.
 
 # 19. Évolutions
 
-Lorsqu'un nouveau protocole, une nouvelle technologie ou un nouveau composant est intégré à Ohanna :
+Lorsqu'un nouveau protocole, une nouvelle technologie ou un nouveau composant est intégré à Ohana :
 
 * privilégier une icône Lucide existante ;
 * conserver la cohérence avec le reste du catalogue ;
@@ -314,7 +314,7 @@ Lorsqu'un nouveau protocole, une nouvelle technologie ou un nouveau composant es
 
 # 20. Principe fondamental
 
-L'iconographie d'Ohanna constitue un langage visuel partagé.
+L'iconographie d'Ohana constitue un langage visuel partagé.
 
 Un même concept doit toujours être représenté par la même icône, quels que soient le produit, la page ou le contexte.
 

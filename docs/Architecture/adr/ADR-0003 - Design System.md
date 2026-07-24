@@ -7,19 +7,19 @@
 
 # Contexte
 
-La plateforme Ohanna est composée de plusieurs produits développés indépendamment.
+La plateforme Ohana est composée de plusieurs produits développés indépendamment.
 
 Ces produits partagent une architecture commune, des modèles métier communs et une philosophie de conception identique.
 
 Afin de garantir une expérience cohérente pour les utilisateurs, il est nécessaire d'adopter un Design System commun à l'ensemble de la plateforme.
 
-Cette décision définit le rôle du Design System dans l'écosystème Ohanna.
+Cette décision définit le rôle du Design System dans l'écosystème Ohana.
 
 ---
 
 # Décision
 
-L'ensemble des produits Ohanna utilise un Design System unique.
+L'ensemble des produits Ohana utilise un Design System unique.
 
 Ce Design System constitue la référence officielle pour l'identité visuelle, les conventions graphiques et les composants d'interface.
 
@@ -53,15 +53,15 @@ Le Design System couvre notamment :
 * les conventions d'interface ;
 * les diagrammes officiels.
 
-Les éléments graphiques sont centralisés dans Ohanna Platform.
+Les éléments graphiques sont centralisés dans Ohana Platform.
 
 ---
 
 # Responsabilités
 
-## Ohanna Platform
+## Ohana Platform
 
-Ohanna Platform maintient le Design System.
+Ohana Platform maintient le Design System.
 
 Il publie :
 

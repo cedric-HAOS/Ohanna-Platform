@@ -1,6 +1,6 @@
 # Typography.md
 
-# Ohanna — Typography System
+# Ohana — Typography System
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 # 1. Philosophie
 
-La typographie d'Ohanna poursuit trois objectifs :
+La typographie d'Ohana poursuit trois objectifs :
 
 * lisibilité maximale ;
 * hiérarchie visuelle claire ;
@@ -23,7 +23,7 @@ Il ne doit jamais devenir un élément décoratif.
 
 # 2. Police officielle
 
-La famille de caractères officielle d'Ohanna est :
+La famille de caractères officielle d'Ohana est :
 
 ```text
 Inter
@@ -31,8 +31,8 @@ Inter
 
 Elle est utilisée dans l'ensemble des applications :
 
-* Ohanna-Agent
-* Ohanna-Vision
+* Ohana-Agent
+* Ohana-Vision
 * documentation web
 * site internet
 * tableaux de bord
@@ -385,6 +385,6 @@ Le texte doit respecter les principes suivants :
 * Inter est la seule police utilisée pour l'interface utilisateur.
 * JetBrains Mono est réservée au contenu technique.
 * Les tailles et les poids sont limités à ceux définis dans ce document.
-* La hiérarchie typographique doit rester identique dans tous les produits Ohanna.
+* La hiérarchie typographique doit rester identique dans tous les produits Ohana.
 * La lisibilité prévaut toujours sur les effets visuels.
 * Toute évolution de la typographie doit être validée au niveau du Design System avant son adoption.

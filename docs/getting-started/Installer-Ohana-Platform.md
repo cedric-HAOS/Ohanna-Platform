@@ -1,11 +1,11 @@
-# Installer Ohanna Platform
+# Installer Ohana Platform
 
-Ce guide décrit l'installation complète d'une plateforme **Ohanna** en environnement de développement.
+Ce guide décrit l'installation complète d'une plateforme **Ohana** en environnement de développement.
 
 À l'issue de cette procédure, vous disposerez des composants suivants :
 
-* Ohanna-Agent
-* Ohanna-Vision
+* Ohana-Agent
+* Ohana-Vision
 
 ---
 
@@ -37,16 +37,16 @@ pip --version
 Créer un répertoire de travail :
 
 ```bash
-mkdir Ohanna
-cd Ohanna
+mkdir Ohana
+cd Ohana
 ```
 
 Cloner les dépôts :
 
 ```bash
-git clone https://github.com/<organisation>/Ohanna-Agent.git
+git clone https://github.com/<organisation>/Ohana-Agent.git
 
-git clone https://github.com/<organisation>/Ohanna-Vision.git
+git clone https://github.com/<organisation>/Ohana-Vision.git
 ```
 
 Vérifier :
@@ -58,18 +58,18 @@ dir
 Le dossier doit contenir :
 
 ```text
-Ohanna-Agent
-Ohanna-Vision
+Ohana-Agent
+Ohana-Vision
 ```
 
 ---
 
-# Étape 2 — Installer Ohanna-Agent
+# Étape 2 — Installer Ohana-Agent
 
 Accéder au dépôt :
 
 ```bash
-cd Ohanna-Agent
+cd Ohana-Agent
 ```
 
 Créer un environnement virtuel :
@@ -103,7 +103,7 @@ pip install -e .
 Vérifier :
 
 ```bash
-ohanna-agent --help
+ohana-agent --help
 ```
 
 Quitter le projet :
@@ -114,12 +114,12 @@ cd ..
 
 ---
 
-# Étape 3 — Installer Ohanna-Vision
+# Étape 3 — Installer Ohana-Vision
 
 Accéder au dépôt :
 
 ```bash
-cd Ohanna-Vision
+cd Ohana-Vision
 ```
 
 Créer un environnement virtuel :
@@ -153,7 +153,7 @@ pip install -e .
 Vérifier :
 
 ```bash
-ohanna-vision --help
+ohana-vision --help
 ```
 
 Quitter le projet :
@@ -164,12 +164,12 @@ cd ..
 
 ---
 
-# Étape 4 — Démarrer Ohanna-Agent
+# Étape 4 — Démarrer Ohana-Agent
 
-Depuis le répertoire **Ohanna-Agent** :
+Depuis le répertoire **Ohana-Agent** :
 
 ```bash
-ohanna-agent \
+ohana-agent \
     --config config/application.yaml \
     --infrastructure config/infrastructure.yaml
 ```
@@ -178,12 +178,12 @@ Le journal doit indiquer que l'agent est démarré.
 
 ---
 
-# Étape 5 — Démarrer Ohanna-Vision
+# Étape 5 — Démarrer Ohana-Vision
 
-Depuis le répertoire **Ohanna-Vision** :
+Depuis le répertoire **Ohana-Vision** :
 
 ```bash
-ohanna-vision \
+ohana-vision \
     --config config/vision.yaml
 ```
 
@@ -231,7 +231,7 @@ Effectuer cette opération dans chacun des dépôts.
 
 # Dépannage
 
-## La commande `ohanna-agent` est introuvable
+## La commande `ohana-agent` est introuvable
 
 Vérifier que l'environnement virtuel est activé.
 
@@ -243,7 +243,7 @@ pip install -e .
 
 ---
 
-## La commande `ohanna-vision` est introuvable
+## La commande `ohana-vision` est introuvable
 
 Vérifier que l'environnement virtuel est activé.
 
@@ -257,7 +257,7 @@ pip install -e .
 
 ## L'interface web n'est pas accessible
 
-Vérifier que **Ohanna-Vision** est démarré et qu'aucune autre application n'utilise le port configuré.
+Vérifier que **Ohana-Vision** est démarré et qu'aucune autre application n'utilise le port configuré.
 
 ---
 
@@ -265,8 +265,8 @@ Vérifier que **Ohanna-Vision** est démarré et qu'aucune autre application n'u
 
 Les guides suivants complètent cette procédure :
 
-* Installer-Ohanna-Agent.md
-* Installer-Ohanna-Vision.md
+* Installer-Ohana-Agent.md
+* Installer-Ohana-Vision.md
 * Guide de déploiement
 * Guide de développement
 * Guide de contribution

@@ -1,6 +1,6 @@
 # Changelog
 
-Toutes les évolutions notables d'**Ohanna Platform** sont documentées dans ce fichier.
+Toutes les évolutions notables d'**Ohana Platform** sont documentées dans ce fichier.
 
 Ce projet suit les principes de **Keep a Changelog** et du **Semantic Versioning**.
 
@@ -23,7 +23,7 @@ Ce projet suit les principes de **Keep a Changelog** et du **Semantic Versioning
 
 ### Added
 
-* Création du dépôt **Ohanna Platform**.
+* Création du dépôt **Ohana Platform**.
 * Définition de la vision globale de la plateforme.
 * Architecture logique commune.
 * Architecture de déploiement.

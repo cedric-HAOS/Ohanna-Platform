@@ -1,6 +1,6 @@
 # Animations.md
 
-# Ohanna — Motion and Animation System
+# Ohana — Motion and Animation System
 
 Version : 1.0
 Statut : Référence officielle
@@ -9,7 +9,7 @@ Statut : Référence officielle
 
 # 1. Philosophie
 
-Les animations d'Ohanna améliorent la compréhension de l'interface.
+Les animations d'Ohana améliorent la compréhension de l'interface.
 
 Elles servent à :
 
@@ -446,7 +446,7 @@ Les axes, légendes et libellés doivent rester lisibles pendant la transition.
 
 # 23. Réduction des animations
 
-Ohanna respecte la préférence système :
+Ohana respecte la préférence système :
 
 ```css
 @media (prefers-reduced-motion: reduce)

@@ -1,8 +1,8 @@
-# Ohanna Platform
+# Ohana Platform
 
-![Ohanna](assets/logo/logo.svg)
+![Ohana](assets/logo/logo.svg)
 
-**Ohanna Platform** est une plateforme open source d'observabilité et d'administration d'infrastructures, conçue autour d'un modèle déclaratif et pilotée par les capacités (*Capabilities*).
+**Ohana Platform** est une plateforme open source d'observabilité et d'administration d'infrastructures, conçue autour d'un modèle déclaratif et pilotée par les capacités (*Capabilities*).
 
 Elle permet de collecter des observations provenant de multiples sources, d'évaluer l'état de santé d'une infrastructure, de conserver son historique et de présenter une vision cohérente de son fonctionnement au travers d'une interface moderne.
 
@@ -12,11 +12,11 @@ La plateforme est composée de plusieurs projets complémentaires partageant une
 
 ## Les composants
 
-### Ohanna-Agent
+### Ohana-Agent
 
 Agent d'observation chargé d'exécuter les capacités, de collecter les observations et de publier les événements de l'infrastructure.
 
-### Ohanna-Vision
+### Ohana-Vision
 
 Interface web de supervision permettant de visualiser l'état de santé de l'infrastructure, les observations, la topologie et les événements en temps réel.
 
@@ -50,7 +50,7 @@ La documentation officielle est organisée autour des thèmes suivants :
 
 ## État du projet
 
-Ohanna Platform est actuellement en développement actif.
+Ohana Platform est actuellement en développement actif.
 
 Les évolutions prévues sont décrites dans le fichier **ROADMAP.md**.
 

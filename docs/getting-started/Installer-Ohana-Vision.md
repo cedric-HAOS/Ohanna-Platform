@@ -1,6 +1,6 @@
-# Installer Ohanna-Vision
+# Installer Ohana-Vision
 
-Ce guide décrit l'installation d'**Ohanna-Vision** en environnement de développement.
+Ce guide décrit l'installation d'**Ohana-Vision** en environnement de développement.
 
 À l'issue de cette procédure, vous disposerez d'une interface web fonctionnelle permettant de visualiser l'état de santé d'une infrastructure, les observations, la timeline et la topologie en temps réel.
 
@@ -31,9 +31,9 @@ pip --version
 # Étape 1 — Cloner le dépôt
 
 ```bash
-git clone https://github.com/<organisation>/Ohanna-Vision.git
+git clone https://github.com/<organisation>/Ohana-Vision.git
 
-cd Ohanna-Vision
+cd Ohana-Vision
 ```
 
 Vérifier le contenu du dépôt :
@@ -86,7 +86,7 @@ Mettre pip à jour :
 pip install --upgrade pip
 ```
 
-Installer Ohanna-Vision :
+Installer Ohana-Vision :
 
 ```bash
 pip install -e .
@@ -95,7 +95,7 @@ pip install -e .
 Vérifier l'installation :
 
 ```bash
-ohanna-vision --help
+ohana-vision --help
 ```
 
 La commande doit afficher les options disponibles.
@@ -122,12 +122,12 @@ Tous les tests doivent réussir.
 
 ---
 
-# Étape 5 — Démarrer Ohanna-Vision
+# Étape 5 — Démarrer Ohana-Vision
 
 Depuis le répertoire du projet :
 
 ```bash
-ohanna-vision \
+ohana-vision \
     --config config/vision.yaml
 ```
 
@@ -140,7 +140,7 @@ http://127.0.0.1:8000
 Le journal doit afficher un message similaire à :
 
 ```text
-Starting Ohanna Vision
+Starting Ohana Vision
 Listening on 127.0.0.1:8000
 Application startup complete
 ```
@@ -162,7 +162,7 @@ Vérifier que :
 * la navigation fonctionne ;
 * les différentes vues sont accessibles.
 
-Si **Ohanna-Agent** est également en fonctionnement, vérifier que les observations apparaissent en temps réel dans l'interface.
+Si **Ohana-Agent** est également en fonctionnement, vérifier que les observations apparaissent en temps réel dans l'interface.
 
 ---
 
@@ -206,7 +206,7 @@ Supprimer ensuite le répertoire du projet.
 
 # Dépannage
 
-## La commande `ohanna-vision` est introuvable
+## La commande `ohana-vision` est introuvable
 
 Vérifier que l'environnement virtuel est activé.
 
@@ -238,4 +238,4 @@ Vérifier que vous utilisez une version de Python compatible et que toutes les d
 
 # Étape suivante
 
-Une fois Ohanna-Vision installé, vous pouvez installer et démarrer **Ohanna-Agent** afin de recevoir et visualiser les observations de votre infrastructure en temps réel.
+Une fois Ohana-Vision installé, vous pouvez installer et démarrer **Ohana-Agent** afin de recevoir et visualiser les observations de votre infrastructure en temps réel.

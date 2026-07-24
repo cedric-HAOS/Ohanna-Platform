@@ -1,6 +1,6 @@
 # Roadmap
 
-Cette feuille de route présente les grandes étapes de développement d'**Ohanna Platform**.
+Cette feuille de route présente les grandes étapes de développement d'**Ohana Platform**.
 
 Les roadmaps détaillées de chaque composant sont maintenues dans leurs dépôts respectifs.
 
@@ -61,8 +61,8 @@ Les roadmaps détaillées de chaque composant sont maintenues dans leurs dépôt
 
 ## Phase 3 — Écosystème
 
-* Ohanna-Agent
-* Ohanna-Vision
+* Ohana-Agent
+* Ohana-Vision
 * SDK
 * Plugins officiels
 

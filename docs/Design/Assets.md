@@ -1,6 +1,6 @@
-# Assets — Ohanna Design System
+# Assets — Ohana Design System
 
-Les assets graphiques constituent la bibliothèque visuelle officielle de la plateforme **Ohanna**.
+Les assets graphiques constituent la bibliothèque visuelle officielle de la plateforme **Ohana**.
 
 Ils regroupent les logos, icônes, illustrations et ressources utilisées par l'ensemble des produits de l'écosystème.
 
@@ -25,9 +25,9 @@ Les assets garantissent :
 
 Ils constituent la **source officielle** de tous les éléments visuels utilisés par :
 
-- Ohanna-Agent
-- Ohanna-Vision
-- Ohanna-House
+- Ohana-Agent
+- Ohana-Vision
+- Ohana-House
 - documentation
 - site web
 - présentations
@@ -79,7 +79,7 @@ Le fichier :
 logos/master/symbol-master.svg
 ```
 
-constitue **la référence absolue** de l'identité graphique d'Ohanna.
+constitue **la référence absolue** de l'identité graphique d'Ohana.
 
 Toutes les variantes du logo sont générées à partir de ce fichier.
 
@@ -394,7 +394,7 @@ Les modifications doivent toujours préserver la cohérence visuelle de l'ensemb
 
 # Philosophie
 
-Les assets graphiques d'Ohanna ne cherchent pas à impressionner.
+Les assets graphiques d'Ohana ne cherchent pas à impressionner.
 
 Ils cherchent à rendre une infrastructure complexe immédiatement compréhensible.
 
